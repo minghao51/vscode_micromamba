@@ -1,0 +1,30 @@
+# Micromamba environment file
+# https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
+
+name: pycaret
+
+channels:
+  - conda-forge
+
+dependencies:
+  - jupyter-packaging
+  - jupyterlab
+  - jupyter
+  - nodejs
+  - pytest
+  - pytest-check-links
+  - python=3.9
+  - yarn
+  - pandas
+  - numpy
+  - scikit-learn
+  - pytorch
+  - scipy
+  - pip
+  - xgboost
+  - seaborn
+  - pip:
+    - "pycaret[analysis,models,tuner, parallel]"
+    - tqdm
+    - scikit-learn-intelex
+    - ipython

@@ -1,0 +1,32 @@
+# Micromamba environment file
+# https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
+
+name: tpot
+
+channels:
+  - conda-forge
+
+dependencies:
+  - jupyter-packaging
+  - jupyterlab
+  - nodejs
+  - pytest
+  - pytest-check-links
+  - python
+  - yarn
+  - pandas
+  - numpy
+  - scikit-learn
+  - pytorch
+  - scipy
+  - pip
+  - xgboost
+  - seaborn
+  - dask
+  - dask-ml
+  - pip:
+    - deap
+    - update_checker
+    - tqdm
+    - stopit
+    - tpot

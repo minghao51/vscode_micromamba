@@ -1,0 +1,33 @@
+# Micromamba environment file
+# https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
+
+name: tabnet
+
+channels:
+  - conda-forge
+
+dependencies:
+  - jupyter-packaging
+  - jupyterlab
+  - jupyter
+  # - nodejs
+  - pytest
+  - pytest-check-links
+  - python
+  # - yarn
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
+  - seaborn
+  - cudatoolkit
+  # - pytorch
+  # - torchvision
+  # - torchaudio
+  - pytorch-tabnet
+  - pip
+  - pip:
+    - shap
+    - tqdm
+    - stopit
+    - wget

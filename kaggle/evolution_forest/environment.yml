@@ -1,0 +1,31 @@
+# Micromamba environment file
+# https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
+
+name: evolutionforest
+
+channels:
+  - conda-forge
+
+dependencies:
+  - jupyter-packaging
+  - jupyterlab
+  - nodejs
+  - pytest
+  - pytest-check-links
+  - python=3.9
+  - yarn
+  - seaborn
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - pytorch
+  - pip
+  - pip:
+    - gplearn
+    - shap
+    - pyade
+    - skorch
+    - umap-learn
+    - category_encoders
+    - evolutionary_forest
