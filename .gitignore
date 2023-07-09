@@ -1,1 +1,13 @@
 .micromamba
+*.zip
+*.csv
+*.tif
+*.pkl
+*.log
+*.tmp
+*.jsonl
+*.json
+*.gz
+*.tsv
+*.tfevents
+*.png

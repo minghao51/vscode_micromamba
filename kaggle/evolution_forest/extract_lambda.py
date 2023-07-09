@@ -24,3 +24,4 @@
 
 
 def extract_lambda_function(dict):
+    for key, value in dict.items():

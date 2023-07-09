@@ -23,5 +23,6 @@ dependencies:
   - seaborn
   - pip:
     - "flaml[automl]"
+    - shap
     - tqdm
     - stopit
