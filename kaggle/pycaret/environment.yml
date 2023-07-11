@@ -24,7 +24,7 @@ dependencies:
   - xgboost
   - seaborn
   - pip:
-    - "pycaret[analysis,models,tuner, parallel]"
+    - "pycaret[analysis,models,tuners,parallel]"
     - tqdm
     - scikit-learn-intelex
     - ipython
