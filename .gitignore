@@ -11,3 +11,6 @@
 *.tsv
 *.tfevents
 *.png
+/.luarc.json
+/.quarto/
+/_site/
